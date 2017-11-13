@@ -1,0 +1,20 @@
+﻿  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+  tinystr.cpp
+  MainPrg.cpp
+  CGame.cpp
+d:\tailieu\game\demo_spriteanimationsheet_stdio_vs2017\spriteanimationsheet\cgame.cpp(173): warning C4244: 'argument': conversion from 'DWORD' to 'float', possible loss of data
+  CAnimationSprite.cpp
+d:\tailieu\game\demo_spriteanimationsheet_stdio_vs2017\spriteanimationsheet\canimationsprite.cpp(109): warning C4244: 'argument': conversion from 'LONG' to 'FLOAT', possible loss of data
+  Generating Code...
+CAnimationSprite.obj : error LNK2019: unresolved external symbol D3DXMatrixMultiply referenced in function "public: struct D3DXMATRIX & __cdecl D3DXMATRIX::operator*=(struct D3DXMATRIX const &)" (??XD3DXMATRIX@@QEAAAEAU0@AEBU0@@Z)
+CAnimationSprite.obj : error LNK2019: unresolved external symbol D3DXMatrixScaling referenced in function "public: void __cdecl CAnimationSprite::Render(float,float,float,float,float,float)" (?Render@CAnimationSprite@@QEAAXMMMMMM@Z)
+CAnimationSprite.obj : error LNK2019: unresolved external symbol D3DXMatrixTranslation referenced in function "public: void __cdecl CAnimationSprite::Render(float,float,float,float,float,float)" (?Render@CAnimationSprite@@QEAAXMMMMMM@Z)
+CAnimationSprite.obj : error LNK2019: unresolved external symbol D3DXCreateSprite referenced in function "public: bool __cdecl CAnimationSprite::Init(void)" (?Init@CAnimationSprite@@QEAA_NXZ)
+CAnimationSprite.obj : error LNK2019: unresolved external symbol D3DXGetImageInfoFromFileW referenced in function "public: bool __cdecl CAnimationSprite::Load(wchar_t *,char const *,unsigned long)" (?Load@CAnimationSprite@@QEAA_NPEA_WPEBDK@Z)
+CAnimationSprite.obj : error LNK2019: unresolved external symbol D3DXCreateTextureFromFileExW referenced in function "public: bool __cdecl CAnimationSprite::Load(wchar_t *,char const *,unsigned long)" (?Load@CAnimationSprite@@QEAA_NPEA_WPEBDK@Z)
+CGame.obj : error LNK2019: unresolved external symbol Direct3DCreate9 referenced in function "private: void __cdecl CGame::_InitDirectX(void)" (?_InitDirectX@CGame@@AEAAXXZ)
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\TaiLieu\Game\Demo_SpriteAnimationSheet_STDIO_VS2017\x64\Debug\SpriteAnimationSheet.exe : fatal error LNK1120: 7 unresolved externals

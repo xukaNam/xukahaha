@@ -1,0 +1,10 @@
+﻿  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+  tinystr.cpp
+  MainPrg.cpp
+  CGame.cpp
+  CAnimationSprite.cpp
+c:\users\xukanimamoto\desktop\demo_spriteanimationsheet_stdio_vs2017\spriteanimationsheet\canimationsprite.cpp(143): warning C4244: 'argument': conversion from 'LONG' to 'FLOAT', possible loss of data
+  Generating Code...
+  SpriteAnimationSheets.vcxproj -> C:\Users\xukanimamoto\Desktop\Demo_SpriteAnimationSheet_STDIO_VS2017\Debug\SpriteAnimationSheet.exe
